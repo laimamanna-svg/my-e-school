@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* MOVING TEXT */
+.moving-text {
+    animation: moveText 3s infinite alternate;
+}
+
+@keyframes moveText {
+    from { transform: translateX(-20px); }
+    to { transform: translateX(20px); }
+}
+
+/* BUTTON */
+button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+/* CLOCK */
+.clock {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
